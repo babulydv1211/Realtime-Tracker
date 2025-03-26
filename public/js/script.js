@@ -1,5 +1,5 @@
 
-const socket = io(); // Connect to backend
+const socket = io("https://realtime-tracker-me3w.onrender.com"); // Connect to backend
 
 // Check if Geolocation is available in browser
 if (navigator.geolocation) {
